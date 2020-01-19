@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A8813BD23B3A42D009EB993 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8813BC23B3A42D009EB993 /* TimeViewController.swift */; };
 		1A8813BF23BEC1FD009EB993 /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8813BE23BEC1FD009EB993 /* TableViewCell3.swift */; };
+		1A8813C123C936B5009EB993 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8813C023C936B5009EB993 /* ConfirmViewController.swift */; };
 		1A9A897223A2F9B500723C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A897123A2F9B500723C68 /* AppDelegate.swift */; };
 		1A9A897423A2F9B500723C68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A897323A2F9B500723C68 /* SceneDelegate.swift */; };
 		1A9A897623A2F9B500723C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A897523A2F9B500723C68 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1A8813BC23B3A42D009EB993 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		1A8813BE23BEC1FD009EB993 /* TableViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		1A8813C023C936B5009EB993 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		1A9A896E23A2F9B500723C68 /* reservUTTiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reservUTTiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9A897123A2F9B500723C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9A897323A2F9B500723C68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1AB4DD1223AFF8700000E00C /* TableViewCell.swift */,
 				1AD0B91123B2E51C0084F88B /* TableViewCell2.swift */,
 				1A8813BE23BEC1FD009EB993 /* TableViewCell3.swift */,
+				1A8813C023C936B5009EB993 /* ConfirmViewController.swift */,
 			);
 			path = reservUTTiOS;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				1A8813BD23B3A42D009EB993 /* TimeViewController.swift in Sources */,
 				1A9A898823A4760900723C68 /* Common.swift in Sources */,
 				1A9A899023A5380B00723C68 /* User.swift in Sources */,
+				1A8813C123C936B5009EB993 /* ConfirmViewController.swift in Sources */,
 				1AB4DD1723B169E20000E00C /* ViewControllerForPickVal.swift in Sources */,
 				1AB4DD1323AFF8700000E00C /* TableViewCell.swift in Sources */,
 				1A9A897623A2F9B500723C68 /* ViewController.swift in Sources */,

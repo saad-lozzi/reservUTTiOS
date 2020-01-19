@@ -32,22 +32,19 @@ class TimeViewController: UIViewController , UITableViewDataSource, UITableViewD
         dateFormatter.dateFormat = "dd_MM_yyyy"
         let dateString = dateFormatter.string(from: datePicker.date)
         
-        let dateFormatter2 = DateFormatter()
-        dateFormatter2.dateFormat = "dd/MM/yyyy"
-        let dateString2 = dateFormatter2.string(from: datePicker.date)
+        //l
         
-        dateLabel.text = dateString
+        //dateLabel.text = dateString
         
         Common.DATE = dateString
         
-        Common.DATETIME = dateString2+" à "+Common.TIME
+        //Common.DATETIME = dateString2+" à "+Common.TIME
         
         print(Common.DATE)
         
         print(Common.DATETIME)
         
         loadData()
-                
     }
     
     @IBAction func onChange(_ sender: UIDatePicker) {
@@ -60,7 +57,7 @@ class TimeViewController: UIViewController , UITableViewDataSource, UITableViewD
         dateFormatter2.dateFormat = "dd/MM/yyyy"
         let dateString2 = dateFormatter2.string(from: sender.date)
         
-        dateLabel.text = dateString
+        //dateLabel.text = dateString
         
         Common.DATETIME = dateString2+" à "+Common.TIME
         
@@ -131,6 +128,12 @@ class TimeViewController: UIViewController , UITableViewDataSource, UITableViewD
         print(Common.SLOT)
         print(Common.TIME)
         nextButton.isEnabled = true
+        
+        let dateFormatter2 = DateFormatter()
+        dateFormatter2.dateFormat = "dd/MM/yyyy"
+        let dateString2 = dateFormatter2.string(from: datePicker.date)
+        
+        Common.DATETIME = dateString2+" à "+Common.TIME
         
     }
     

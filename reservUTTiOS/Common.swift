@@ -16,7 +16,7 @@ class Common {
     static var SALLE = "A101"
     static var SALLEID = "ID"
     static var SLOT = -1
-    static var TIME = "TIME"
+    static var TIME = "9:00 - 10:00 à 24/01/2020"
     static var DATE = "DATE"
     static var DATETIME = "DATETIME"
     

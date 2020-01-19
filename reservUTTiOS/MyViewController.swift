@@ -26,6 +26,8 @@ class MyViewController: UIViewController {
         db = Firestore.firestore()
 
         loadData()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "main2.png")!)
+
         // Do any additional setup after loading the view.
     }
     
@@ -51,7 +53,8 @@ class MyViewController: UIViewController {
                         print("null element")
                     } else {
                         print("affecting element")
-                        self.reservationArray.append(Reservation(dictionary: el)!)
+                        //let time = Timestamp.init(date: NSDate.now)
+                        self.reservationArray.append(Reservation(dictionary: el)!) //?? Reservation(done: false, salleId : Common.SALLEID, salleName: Common.SALLE, slot:Common.SLOT, time: Common.TIME, timestamp: time, user: Common.USERNAME, userId: userID))
                     }
                 }
                 self.tableV.reloadData()

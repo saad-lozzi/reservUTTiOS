@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         db = Firestore.firestore()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "main.png")!)
         
         // Do any additional setup after loading the view.
     }
